@@ -40,7 +40,6 @@
 
 require_once SGL_MOD_DIR  . '/block/classes/Block.php';
 require_once SGL_MOD_DIR  . '/user/classes/UserDAO.php';
-require_once SGL_CORE_DIR . '/Delegator.php';
 
 if (SGL::moduleIsEnabled('cms')) {
     require_once SGL_MOD_DIR  . '/cms/classes/NavigationDAO.php';
